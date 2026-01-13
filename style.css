@@ -18,9 +18,9 @@ main {
     padding: 15px;
     grid-template-columns: 1fr 0.8fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    grid-template-areas: "top-left top-center top-right"
-        "top-left center bottom-right"
-        "bottom-left bottom-left bottom-right"
+    grid-template-areas:"top-left top-center top-right"
+                        "top-left center bottom-right"
+                        "bottom-left bottom-left bottom-right"
     ;
 }
 
@@ -30,7 +30,7 @@ section {
 
 #top-left {
     grid-area: top-left;
-    background-color: powderblue;
+    /* background-color: powderblue; */
     background-image: url();
 }
 
@@ -62,13 +62,13 @@ section {
 #mid-right {
     grid-area: bottom-right;
 
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
     background-image: url();
 }
 
 #bottom-left {
     grid-area: bottom-left;
-    background-color: burlywood;
+    /* background-color: burlywood; */
     background-image: url();
 }
 
